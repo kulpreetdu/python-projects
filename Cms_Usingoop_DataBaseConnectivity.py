@@ -2,7 +2,7 @@
 import pymysql
 #BLL BEGINS
 class Customer:
-    con = pymysql.connect(host="localhost", user="root", password="root123", database='5thjune2019')
+    con = pymysql.connect(host="localhost", user="root", password="******", database='5thjune2019')
     def __init__(self):     # constructor
         self.id = 0         # storing the id of the customer
         self.name = " "       # storing the name of the customer
