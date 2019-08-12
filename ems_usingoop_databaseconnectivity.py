@@ -2,7 +2,7 @@
 import pymysql
 #bll begins
 class Employee:
-    con = pymysql.connect(host="localhost", user="root", password="root123", database='5thjune2019')
+    con = pymysql.connect(host="localhost", user="****", password="********", database='5thjune2019')
     def __init__(self):
         self.Id = 0
         self.Name = " "
